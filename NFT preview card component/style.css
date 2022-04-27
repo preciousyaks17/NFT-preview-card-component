@@ -53,7 +53,7 @@ body {
 }
 
 .text-content {
-    font-size: 11px;
+    font-size: 18px;
     color: hsl(215, 51%, 70%);
     padding-left: 10px;
     padding-top: 15px;
@@ -72,12 +72,12 @@ body {
 .ethereum {
     color: hsl(178, 100%, 50%);
     font-weight: bold;
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .days {
     color: hsl(215, 51%, 70%);
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .clock-icon {
@@ -91,7 +91,7 @@ body {
 }
 
 .creation {
-    font-size: 11px;
+    font-size: 18px;
     padding: 10px 15px 10px 15px;
     margin: 0;
 }
@@ -133,7 +133,7 @@ body {
     width: 100%;
     transition: 0.25s ease;
     opacity: 0;
-    background-color: hsl(178, 100%, 50%);
+    background-color: hsl(178deg, 100%, 50% / 52%);
 }
 
 .view-icon {
@@ -163,7 +163,7 @@ body {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 18px;
     text-align: center;
     position: relative;
     top: -50px;
