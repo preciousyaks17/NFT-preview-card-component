@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
-- Live Site URL: [Add live site URL here](https://preciousyaks17.github.io/NFT-preview-card-component/)
+- Live Site URL: [Add live site URL here](https://preciousyaks17.github.io/NFT-preview-card-component/NFT%20preview%20card%20component/index.html)
 
 ## My process
 
