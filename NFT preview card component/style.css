@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-weight: 300, 400, 600;
+    font-size: 18px;
+    margin: auto;
+    background-color: hsl(217, 54%, 11%);
+    line-height: 1.45;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    padding: 60px;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 375px;
+    position: relative;
+    top: -20;
+}
+
+.card-body {
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 9px 12px 0px 12px;
+    width: 100%;
+}
+
+.img-container {
+    position: relative;
+    width: 100%;
+}
+
+.equilibrium-image {
+    display: block;
+    border-radius: 2%;
+    width: 100%;
+}
+
+.equilibrium-text {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.text-content {
+    font-size: 11px;
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.ethereum-section {
+    padding: 10px 15px 10px 15px;
+    border-bottom: 1px solid hsl(215, 30%, 72%);
+}
+
+.ethereum-icon {
+    color: hsl(178, 100%, 50%);
+    width: 2%;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    font-size: 11px;
+}
+
+.clock-icon {
+    width: 5%;
+}
+
+.days,
+.clock-icon {
+    position: relative;
+    left: 60px;
+}
+
+.creation {
+    font-size: 11px;
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+}
+
+.Jules-Wyvren {
+    display: block;
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.text-creation {
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.creator {
+    color: hsl(0, 0%, 100%);
+}
+
+.text-creation {
+    padding-left: 40px;
+}
+
+.text-creation,
+.creator {
+    position: relative;
+    top: -20px;
+}
+
+.image-overlay {
+    position: absolute;
+    border-radius: 2%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    transition: 0.25s ease;
+    opacity: 0;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.view-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.img-container:active,
+.img-container:hover .image-overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.equilibrium-text:active,
+.equilibrium-text:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.creator:active,
+.creator:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
